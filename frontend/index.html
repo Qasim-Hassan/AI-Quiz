@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz app</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="screen active" id="start-screen">
+                <h1>Quiz Time!</h1>
+                <p>Test your knowledge with these fun questions</p>
+                <button id="quiz-btn" class="buttons">Start Quiz</button>
+            </div>
+
+            <div class="screen" id="quiz-screen">
+                <div class="quiz-header">
+                    <h2 id="question-text">Question 1</h2>
+
+                    <div class="quiz-info">
+                        <p>Question <span id="current-qs">1</span> of <span class="max-score">5</span></p>
+
+                        <p>Score: <span id="score">0</span></p>
+                    </div>
+                </div>
+
+                <div id="answers-container" class="ans-cont">
+                    <!-- Answers will be inserted here from JS-->
+                </div>
+
+                <div id="progress-bar" class="progress">
+                    <div id="bar-fill"></div>
+                </div>
+            </div>
+
+            <div id="result-screen" class="screen">
+                <h1>Quiz Results</h1>
+                <div class="result-info">
+                    <p>You scored <span id="final-score">0</span> out of <span class="max-score">5</span></p>
+                </div>
+                <div id="restart-btn" class="buttons">Restart Quiz</div>
+                <div id="explain-btn" class="buttons">Explain</div>
+            </div>
+
+            <div id="explain-screen" class="screen">
+                <h1>AI Explanation</h1>
+
+                <p class="explain-subtitle">
+                    Here's a clear breakdown of the concepts tested in this quiz.
+                </p>
+
+                <div class="explain-box">
+                    <p id="ai-summary">
+                    Loading explanation...
+                    </p>
+                </div>
+
+                <div class="explain-actions">
+                    <button id="back-to-results" class="buttons">Back</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

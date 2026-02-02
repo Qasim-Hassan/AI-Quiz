@@ -1,0 +1,178 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #5b8df7, #6e72ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Main wrapper */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 480px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Screens hidden except active */
+.screen {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.screen.active {
+    display: block;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0px); }
+}
+
+/* Typography */
+h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+p {
+    opacity: 0.9;
+}
+
+/* Buttons */
+.buttons {
+    display: inline-block;
+    background: #ffffff;
+    color: #4a4bed;
+    padding: 12px 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.buttons:hover {
+    background: #e3e3ff;
+    transform: scale(1.05);
+}
+
+/* Quiz header layout */
+.quiz-header {
+    text-align: left;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+/* Answer buttons */
+#answers-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.answer {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.answer:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: scale(1.03);
+}
+
+/* Correct / Wrong colors (JS will add classes) */
+.correct {
+    background: rgba(0, 255, 127, 0.45) !important;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.wrong {
+    background: rgba(255, 64, 64, 0.45) !important;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Progress Bar */
+.progress {
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+}
+
+#bar-fill {
+    height: 100%;
+    width: 0%;
+    background: #16db16;
+    transition: 0.3s ease-in-out;
+}
+
+/* Result screen */
+.result-info {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+
+
+/* Explain screen subtitle */
+.explain-subtitle {
+font-size: 14px;
+opacity: 0.85;
+margin-bottom: 18px;
+}
+
+/* AI explanation container */
+.explain-box {
+background: rgba(255, 255, 255, 0.18);
+border-radius: 12px;
+padding: 18px;
+max-height: 260px;
+overflow-y: auto;
+text-align: left;
+line-height: 1.6;
+font-size: 14px;
+}
+
+
+/* Scrollbar styling */
+.explain-box::-webkit-scrollbar {
+width: 6px;
+}
+
+
+.explain-box::-webkit-scrollbar-thumb {
+background: rgba(255,255,255,0.4);
+border-radius: 10px;
+}
+
+
+/* Action buttons */
+.explain-actions {
+margin-top: 20px;
+}

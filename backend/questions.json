@@ -1,0 +1,698 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "question": "What does a Large Language Model (LLM) primarily learn during training?",
+      "correct_answer": "Statistical patterns in large text datasets",
+      "incorrect_answers": [
+        "Exact memorization of all training documents",
+        "Hard-coded grammar rules",
+        "Human reasoning logic"
+      ]
+    },
+    {
+      "question": "Which technology is commonly used to containerize applications?",
+      "correct_answer": "Docker",
+      "incorrect_answers": [
+        "VirtualBox",
+        "Apache",
+        "Nginx"
+      ]
+    },
+    {
+      "question": "What problem does Kubernetes primarily solve?",
+      "correct_answer": "Container orchestration and scaling",
+      "incorrect_answers": [
+        "Code compilation",
+        "Database indexing",
+        "UI rendering"
+      ]
+    },
+    {
+      "question": "Which protocol is used to securely transfer web pages?",
+      "correct_answer": "HTTPS",
+      "incorrect_answers": [
+        "FTP",
+        "SMTP",
+        "SNMP"
+      ]
+    },
+    {
+      "question": "What does REST stand for in REST APIs?",
+      "correct_answer": "Representational State Transfer",
+      "incorrect_answers": [
+        "Remote Execution Standard Technique",
+        "Random Encoded Service Transfer",
+        "Reliable State Transaction"
+      ]
+    },
+    {
+      "question": "Which JavaScript runtime is commonly used for backend development?",
+      "correct_answer": "Node.js",
+      "incorrect_answers": [
+        "React",
+        "Vue",
+        "jQuery"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of a CDN?",
+      "correct_answer": "Reduce latency by serving content closer to users",
+      "incorrect_answers": [
+        "Encrypt database records",
+        "Compile frontend code",
+        "Replace backend servers"
+      ]
+    },
+    {
+      "question": "Which database type is MongoDB?",
+      "correct_answer": "NoSQL document database",
+      "incorrect_answers": [
+        "Relational database",
+        "Graph database",
+        "Key-value cache only"
+      ]
+    },
+    {
+      "question": "What does CI/CD stand for?",
+      "correct_answer": "Continuous Integration and Continuous Deployment",
+      "incorrect_answers": [
+        "Code Inspection and Code Debugging",
+        "Cloud Infrastructure and Cloud Delivery",
+        "Centralized Integration and Deployment"
+      ]
+    },
+    {
+      "question": "Which cloud service model provides virtual machines?",
+      "correct_answer": "IaaS",
+      "incorrect_answers": [
+        "SaaS",
+        "PaaS",
+        "FaaS"
+      ]
+    },
+    {
+      "question": "What is the main advantage of serverless computing?",
+      "correct_answer": "No server management required by developers",
+      "incorrect_answers": [
+        "Unlimited computing power",
+        "No backend code needed",
+        "No cost at all"
+      ]
+    },
+    {
+      "question": "Which HTTP method is idempotent?",
+      "correct_answer": "PUT",
+      "incorrect_answers": [
+        "POST",
+        "PATCH",
+        "CONNECT"
+      ]
+    },
+    {
+      "question": "What is the primary role of an operating system kernel?",
+      "correct_answer": "Manage hardware and system resources",
+      "incorrect_answers": [
+        "Provide UI design",
+        "Run only user applications",
+        "Compile source code"
+      ]
+    },
+    {
+      "question": "Which algorithm is commonly used for shortest path in graphs?",
+      "correct_answer": "Dijkstra’s algorithm",
+      "incorrect_answers": [
+        "Bubble sort",
+        "Binary search",
+        "Merge sort"
+      ]
+    },
+    {
+      "question": "What does OAuth 2.0 mainly provide?",
+      "correct_answer": "Authorization",
+      "incorrect_answers": [
+        "Encryption",
+        "Authentication only",
+        "Data compression"
+      ]
+    },
+    {
+      "question": "Which cybersecurity attack floods a system with traffic?",
+      "correct_answer": "DDoS attack",
+      "incorrect_answers": [
+        "SQL injection",
+        "Phishing",
+        "Cross-site scripting"
+      ]
+    },
+    {
+      "question": "What is the purpose of indexing in databases?",
+      "correct_answer": "Speed up data retrieval",
+      "incorrect_answers": [
+        "Encrypt records",
+        "Reduce storage size",
+        "Prevent data loss"
+      ]
+    },
+    {
+      "question": "Which programming paradigm does React mainly use?",
+      "correct_answer": "Declarative programming",
+      "incorrect_answers": [
+        "Procedural programming",
+        "Assembly programming",
+        "Logic programming"
+      ]
+    },
+    {
+      "question": "What is WebAssembly primarily used for?",
+      "correct_answer": "Running high-performance code in browsers",
+      "incorrect_answers": [
+        "Replacing JavaScript completely",
+        "Designing UI layouts",
+        "Hosting web servers"
+      ]
+    },
+    {
+      "question": "Which protocol resolves domain names to IP addresses?",
+      "correct_answer": "DNS",
+      "incorrect_answers": [
+        "ARP",
+        "HTTP",
+        "TLS"
+      ]
+    },
+    {
+      "question": "What does Git primarily help with?",
+      "correct_answer": "Version control",
+      "incorrect_answers": [
+        "Code execution",
+        "Cloud hosting",
+        "Database replication"
+      ]
+    },
+    {
+      "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+      "correct_answer": "Merge sort",
+      "incorrect_answers": [
+        "Bubble sort",
+        "Insertion sort",
+        "Selection sort"
+      ]
+    },
+    {
+      "question": "What is the role of an API gateway?",
+      "correct_answer": "Manage and route API requests",
+      "incorrect_answers": [
+        "Store application logs",
+        "Compile backend code",
+        "Encrypt hard drives"
+      ]
+    },
+    {
+      "question": "Which AI technique is used for image recognition?",
+      "correct_answer": "Convolutional Neural Networks",
+      "incorrect_answers": [
+        "Linear regression",
+        "Decision trees only",
+        "K-means clustering"
+      ]
+    },
+    {
+      "question": "What does TCP ensure during data transmission?",
+      "correct_answer": "Reliable and ordered delivery",
+      "incorrect_answers": [
+        "Fastest delivery only",
+        "Encryption by default",
+        "No packet loss detection"
+      ]
+    },
+    {
+      "question": "Which OS concept allows multiple processes to share CPU time?",
+      "correct_answer": "Multitasking",
+      "incorrect_answers": [
+        "Deadlock",
+        "Paging",
+        "Caching"
+      ]
+    },
+    {
+      "question": "What is the primary use of Redis?",
+      "correct_answer": "In-memory data storage and caching",
+      "incorrect_answers": [
+        "Image processing",
+        "Frontend rendering",
+        "Email delivery"
+      ]
+    },
+    {
+      "question": "Which HTTP status code means 'Unauthorized'?",
+      "correct_answer": "401",
+      "incorrect_answers": [
+        "403",
+        "404",
+        "500"
+      ]
+    },
+    {
+      "question": "What does virtualization allow?",
+      "correct_answer": "Running multiple OS instances on one machine",
+      "incorrect_answers": [
+        "Faster internet speed",
+        "Automatic code optimization",
+        "Unlimited storage"
+      ]
+    },
+    {
+      "question": "Which data structure works on FIFO principle?",
+      "correct_answer": "Queue",
+      "incorrect_answers": [
+        "Stack",
+        "Tree",
+        "Graph"
+      ]
+    },
+    {
+      "question": "What is the main goal of DevOps?",
+      "correct_answer": "Improve collaboration between development and operations",
+      "incorrect_answers": [
+        "Replace developers",
+        "Eliminate testing",
+        "Avoid automation"
+      ]
+    },
+    {
+      "question": "Which cryptographic technique uses a public and private key pair?",
+      "correct_answer": "Asymmetric encryption",
+      "incorrect_answers": [
+        "Symmetric encryption",
+        "Hashing",
+        "Encoding"
+      ]
+    },
+    {
+      "question": "What does SQL primarily interact with?",
+      "correct_answer": "Relational databases",
+      "incorrect_answers": [
+        "Operating systems",
+        "Web browsers",
+        "Compilers"
+      ]
+    },
+    {
+      "question": "Which design pattern ensures only one instance of a class exists?",
+      "correct_answer": "Singleton",
+      "incorrect_answers": [
+        "Factory",
+        "Observer",
+        "Adapter"
+      ]
+    },
+    {
+      "question": "What is edge computing focused on?",
+      "correct_answer": "Processing data closer to the source",
+      "incorrect_answers": [
+        "Centralizing all data",
+        "Replacing cloud computing",
+        "Eliminating latency completely"
+      ]
+    },
+    {
+      "question": "Which language is commonly used for systems programming?",
+      "correct_answer": "C",
+      "incorrect_answers": [
+        "HTML",
+        "CSS",
+        "SQL"
+      ]
+    },
+    {
+      "question": "What does XSS stand for in web security?",
+      "correct_answer": "Cross-Site Scripting",
+      "incorrect_answers": [
+        "XML Secure Service",
+        "Extended Style Sheets",
+        "Cross Server Session"
+      ]
+    },
+    {
+      "question": "What is the main role of a load balancer?",
+      "correct_answer": "Distribute traffic across servers",
+      "incorrect_answers": [
+        "Encrypt API responses",
+        "Compile applications",
+        "Store session data"
+      ]
+    },
+    {
+      "question": "Which concept ensures a database transaction is all-or-nothing?",
+      "correct_answer": "Atomicity",
+      "incorrect_answers": [
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ]
+    },
+    {
+      "question": "What does Big-O notation describe?",
+      "correct_answer": "Algorithm time or space complexity",
+      "incorrect_answers": [
+        "Exact execution time",
+        "CPU speed",
+        "Memory size"
+      ]
+    },
+    {
+      "question": "Which AI model architecture powers modern chatbots?",
+      "correct_answer": "Transformer",
+      "incorrect_answers": [
+        "Perceptron",
+        "Naive Bayes",
+        "KNN"
+      ]
+    },
+    {
+      "question": "What is the main benefit of microservices architecture?",
+      "correct_answer": "Independent deployment and scalability",
+      "incorrect_answers": [
+        "Single codebase simplicity",
+        "No APIs needed",
+        "Eliminates networking"
+      ]
+    },
+    {
+      "question": "Which protocol is used for sending emails?",
+      "correct_answer": "SMTP",
+      "incorrect_answers": [
+        "POP3",
+        "IMAP",
+        "FTP"
+      ]
+    },
+    {
+      "question": "What is a primary responsibility of a compiler?",
+      "correct_answer": "Translate source code into machine code",
+      "incorrect_answers": [
+        "Execute programs",
+        "Manage memory at runtime",
+        "Host applications"
+      ]
+    },
+    {
+      "question": "Which technology enables real-time communication in web apps?",
+      "correct_answer": "WebSockets",
+      "incorrect_answers": [
+        "REST",
+        "SOAP",
+        "FTP"
+      ]
+    },
+    {
+      "question": "What is the purpose of hashing passwords?",
+      "correct_answer": "Protect passwords if the database is compromised",
+      "incorrect_answers": [
+        "Make passwords reversible",
+        "Speed up login UI",
+        "Reduce server load"
+      ]
+    },
+    {
+      "question": "Which data structure is ideal for implementing recursion?",
+      "correct_answer": "Stack",
+      "incorrect_answers": [
+        "Queue",
+        "Heap",
+        "Graph"
+      ]
+    },
+        {
+      "question": "Why is the CAP theorem important in distributed systems?",
+      "correct_answer": "It describes the trade-off between consistency, availability, and partition tolerance",
+      "incorrect_answers": [
+        "It guarantees all three properties at the same time",
+        "It defines database indexing strategies",
+        "It optimizes network bandwidth usage"
+      ]
+    },
+    {
+      "question": "What happens during a context switch in an operating system?",
+      "correct_answer": "The CPU saves the state of one process and loads the state of another",
+      "incorrect_answers": [
+        "The CPU executes multiple processes simultaneously",
+        "Memory is permanently freed",
+        "The kernel shuts down user processes"
+      ]
+    },
+    {
+      "question": "Why are hash functions used in password storage instead of encryption?",
+      "correct_answer": "Hashes are one-way and cannot be reversed",
+      "incorrect_answers": [
+        "Hashes are faster to decrypt",
+        "Encryption is insecure by design",
+        "Hashes reduce password length"
+      ]
+    },
+    {
+      "question": "What is the main advantage of B-trees in databases?",
+      "correct_answer": "They minimize disk I/O operations",
+      "incorrect_answers": [
+        "They use less RAM",
+        "They eliminate indexing",
+        "They guarantee constant time lookups"
+      ]
+    },
+    {
+      "question": "Why is TCP slower than UDP?",
+      "correct_answer": "TCP performs reliability checks and congestion control",
+      "incorrect_answers": [
+        "TCP encrypts all data",
+        "UDP uses larger packets",
+        "TCP runs in user space"
+      ]
+    },
+    {
+      "question": "What problem does garbage collection solve?",
+      "correct_answer": "Automatic memory management and prevention of memory leaks",
+      "incorrect_answers": [
+        "CPU scheduling",
+        "Thread synchronization",
+        "Disk fragmentation"
+      ]
+    },
+    {
+      "question": "Why are race conditions dangerous in concurrent programs?",
+      "correct_answer": "They cause unpredictable behavior due to unsynchronized access",
+      "incorrect_answers": [
+        "They increase execution speed",
+        "They prevent deadlocks",
+        "They reduce CPU usage"
+      ]
+    },
+    {
+      "question": "What is the main role of a compiler's optimizer phase?",
+      "correct_answer": "Improve performance without changing program behavior",
+      "incorrect_answers": [
+        "Detect syntax errors",
+        "Generate bytecode",
+        "Manage memory at runtime"
+      ]
+    },
+    {
+      "question": "Why is normalization used in relational databases?",
+      "correct_answer": "To reduce data redundancy and anomalies",
+      "incorrect_answers": [
+        "To improve encryption",
+        "To speed up joins",
+        "To increase storage usage"
+      ]
+    },
+    {
+      "question": "What makes deadlock possible in operating systems?",
+      "correct_answer": "Mutual exclusion, hold and wait, no preemption, and circular wait",
+      "incorrect_answers": [
+        "Paging and segmentation",
+        "Context switching",
+        "Multithreading"
+      ]
+    },
+    {
+      "question": "Why do modern CPUs use cache memory?",
+      "correct_answer": "To reduce latency between CPU and main memory",
+      "incorrect_answers": [
+        "To increase storage capacity",
+        "To replace RAM",
+        "To reduce power consumption only"
+      ]
+    },
+    {
+      "question": "What is the primary reason for using microservices over monoliths?",
+      "correct_answer": "Independent scaling and deployment",
+      "incorrect_answers": [
+        "Less network communication",
+        "Simpler debugging",
+        "Lower operational cost always"
+      ]
+    },
+    {
+      "question": "Why is eventual consistency acceptable in some systems?",
+      "correct_answer": "Because availability is prioritized over immediate consistency",
+      "incorrect_answers": [
+        "Because data loss is acceptable",
+        "Because it eliminates network partitions",
+        "Because writes are faster than reads"
+      ]
+    },
+    {
+      "question": "What does ACID isolation mainly prevent?",
+      "correct_answer": "Interference between concurrent transactions",
+      "incorrect_answers": [
+        "Data loss after crashes",
+        "Invalid schema changes",
+        "Unauthorized access"
+      ]
+    },
+    {
+      "question": "Why are bloom filters used in distributed systems?",
+      "correct_answer": "To test set membership with minimal memory usage",
+      "incorrect_answers": [
+        "To encrypt network traffic",
+        "To compress files",
+        "To replace indexes"
+      ]
+    },
+    {
+      "question": "What is the purpose of mutex locks?",
+      "correct_answer": "Ensure mutual exclusion for shared resources",
+      "incorrect_answers": [
+        "Increase parallelism",
+        "Avoid context switches",
+        "Improve cache locality"
+      ]
+    },
+    {
+      "question": "Why does Big-O ignore constants?",
+      "correct_answer": "Because it focuses on growth rate for large inputs",
+      "incorrect_answers": [
+        "Because constants never matter",
+        "Because hardware is ignored",
+        "Because algorithms run infinitely"
+      ]
+    },
+    {
+      "question": "What is the main limitation of NoSQL databases?",
+      "correct_answer": "Weaker consistency guarantees compared to relational databases",
+      "incorrect_answers": [
+        "Poor scalability",
+        "Lack of indexing",
+        "Inability to store large data"
+      ]
+    },
+    {
+      "question": "Why is load shedding used in high-traffic systems?",
+      "correct_answer": "To maintain system stability under extreme load",
+      "incorrect_answers": [
+        "To reduce database size",
+        "To improve security",
+        "To eliminate latency"
+      ]
+    },
+    {
+      "question": "What does backpropagation do in neural networks?",
+      "correct_answer": "Adjusts weights based on error gradients",
+      "incorrect_answers": [
+        "Generates random weights",
+        "Optimizes network topology",
+        "Reduces training data size"
+      ]
+    },
+    {
+      "question": "Why are write-ahead logs used in databases?",
+      "correct_answer": "To ensure durability and crash recovery",
+      "incorrect_answers": [
+        "To speed up read queries",
+        "To prevent deadlocks",
+        "To normalize tables"
+      ]
+    },
+    {
+      "question": "What problem does the N+1 query issue cause?",
+      "correct_answer": "Excessive database queries leading to performance degradation",
+      "incorrect_answers": [
+        "Data inconsistency",
+        "Deadlocks",
+        "Index corruption"
+      ]
+    },
+    {
+      "question": "Why is tail-call optimization important?",
+      "correct_answer": "It prevents stack overflow in recursive functions",
+      "incorrect_answers": [
+        "It improves algorithm complexity",
+        "It increases recursion depth",
+        "It eliminates function calls"
+      ]
+    },
+    {
+      "question": "What is the main security risk of deserialization?",
+      "correct_answer": "Execution of malicious code",
+      "incorrect_answers": [
+        "Data loss",
+        "Slow performance",
+        "Increased memory usage"
+      ]
+    },
+    {
+      "question": "Why do distributed locks need careful design?",
+      "correct_answer": "Network failures can cause inconsistent lock states",
+      "incorrect_answers": [
+        "Locks are slower than mutexes",
+        "They consume too much CPU",
+        "They eliminate concurrency"
+      ]
+    },
+    {
+      "question": "What is the primary challenge of garbage collection pauses?",
+      "correct_answer": "They introduce latency spikes",
+      "incorrect_answers": [
+        "They increase throughput",
+        "They reduce memory usage",
+        "They cause memory leaks"
+      ]
+    },
+    {
+      "question": "Why is TLS necessary over plain HTTP?",
+      "correct_answer": "It prevents eavesdropping and man-in-the-middle attacks",
+      "incorrect_answers": [
+        "It improves rendering speed",
+        "It compresses data",
+        "It blocks DDoS attacks"
+      ]
+    },
+    {
+      "question": "What does sharding primarily improve?",
+      "correct_answer": "Horizontal scalability",
+      "incorrect_answers": [
+        "Strong consistency",
+        "Query complexity",
+        "Transaction isolation"
+      ]
+    },
+    {
+      "question": "Why is garbage collection non-deterministic?",
+      "correct_answer": "The runtime decides when to reclaim memory",
+      "incorrect_answers": [
+        "Because memory addresses change",
+        "Because the OS controls GC",
+        "Because of CPU scheduling"
+      ]
+    },
+    {
+      "question": "What is the key benefit of immutable data structures?",
+      "correct_answer": "They simplify reasoning in concurrent programs",
+      "incorrect_answers": [
+        "They reduce memory usage",
+        "They eliminate copying",
+        "They improve cache performance"
+      ]
+    }
+  ]
+}
