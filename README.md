@@ -18,6 +18,9 @@ Simple quiz app where a user can attempt quiz and at the end they can get AI exp
 Make sure you have Node JS installed on your machine.
 Clone the repository, cd into backend directory.
 In the *api.js* file, paste your API_KEY as the value of the constant "api". Export this constant.
+Install dependencies:
+
+> npm install
 
 Then run:
 
